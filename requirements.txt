@@ -1,0 +1,13 @@
+streamlit
+google-generativeai
+google-genai
+PyMuPDF
+Pillow
+python-dotenv
+PyPDF2
+langchain-text-splitters
+langchain-google-genai
+langchain-community
+langchain-core
+faiss-cpu
+tavily-python

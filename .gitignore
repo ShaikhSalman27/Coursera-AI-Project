@@ -1,0 +1,15 @@
+# Environment variables (real secrets - never push this)
+.env
+.streamlit/secrets.toml
+
+# FAISS vector index generated at runtime
+pass_index/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS files
+.DS_Store
