@@ -76,3 +76,9 @@ coursera-ai-chatbot/
 ## 📜 License
 
 MIT
+
+# Coursera AI Chatbot
+
+## 🏗️ System Architecture
+
+![Coursera AI Chatbot Architecture](assets/images/Coursera_Architecture.png)
