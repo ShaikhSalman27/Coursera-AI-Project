@@ -1,8 +1,6 @@
 # 🤖 Coursera AI Chatbot
 
-Ek Streamlit-based AI chatbot jo PDF, Image, Video, aur Voice input samajh kar,
-Coursera-related questions ka jawab deta hai — 4-layer security guard ke saath
-(prompt-injection, off-topic questions, aur unsafe answers se protection).
+A Streamlit-based AI chatbot that understands PDF, Image, Video, and Voice input to answer Coursera-related questions — backed by a 4-layer security guard (protection against prompt injection, off-topic questions, and unsafe answers).
 
 ## ✨ Features
 
