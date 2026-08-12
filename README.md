@@ -56,7 +56,7 @@ coursera-ai-chatbot/
 
 4. Run the app:
    ```bash
-   python -m streamlit run app.py
+   python -m streamlit run CourseraAIChatbot.py
    ```
 
 ## 🔑 Getting API Keys
