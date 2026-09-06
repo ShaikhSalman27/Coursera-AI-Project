@@ -1,4 +1,4 @@
-a# 🤖 Coursera AI Chatbot
+# 🤖 Coursera AI Chatbot
 
 A Streamlit-based AI chatbot that understands PDF, Image, Video, and Voice input to answer Coursera-related questions — backed by a 4-layer security guard (protection against prompt injection, off-topic questions, and unsafe answers).
 
