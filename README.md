@@ -1,14 +1,14 @@
-# 🤖 Coursera AI Chatbot
+a# 🤖 Coursera AI Chatbot
 
 A Streamlit-based AI chatbot that understands PDF, Image, Video, and Voice input to answer Coursera-related questions — backed by a 4-layer security guard (protection against prompt injection, off-topic questions, and unsafe answers).
 
 ## ✨ Features
 
-- 📄 **PDF understanding** — text-layer PDFs ya scanned/image-based PDFs, dono
+- 📄 **PDF understanding** — Supports both text-layer PDFs and scanned/image-based PDFs
 - 🖼️ **Image understanding** — OCR + charts/tables/UI explanation
 - 🎥 **Video understanding** — full transcript, timestamps, scene description, OCR
-- 🎙️ **Voice input** — English / Hindi / Hinglish speech-to-text
-- 🌐 **Live website search** — coursera.org se real-time answers (Tavily)
+- 🎙️ **Voice input** — Speech-to-text support for English, Hindi, and Hinglish
+- 🌐 **Live website search** — Real-time answers from Coursera.org using Tavily
 - 🛡️ **4-layer Security Guard** — Question Guard → Context Guard → System Prompt → Response Validator
 
 ## 📁 Project Structure
@@ -66,10 +66,10 @@ coursera-ai-chatbot/
 
 | Layer | Purpose |
 |-------|---------|
-| Question Guard | User ka sawaal Coursera-related hai ya nahi, check karta hai |
-| Context Guard | Retrieved content official Coursera source se hai ya nahi |
-| Master System Prompt | Model ko role/behaviour se bandh ke rakhta hai |
-| Response Validator | Final answer safe aur relevant hai ya nahi, verify karta hai |
+| Question Guard | Checks whether the user's question is related to Coursera or not |
+| Context Guard | Verifies whether the retrieved content comes from an official Coursera source |
+| Master System Prompt | Constrains the model's role, behavior, and response guidelines |
+| Response Validator | Verifies that the final answer is safe, relevant, and appropriate |
 
 ## 📜 License
 
