@@ -1,8 +1,7 @@
 """
 modules/voice_handler.py
 ---------------------------
-Recorded audio (chat_input ka mic) ko Gemini se transcribe karta hai
-(English / Hindi / Hinglish support ke saath).
+Transcribes recorded audio from the chat input microphone using Gemini, with support for English, Hindi, and Hinglish.
 """
 
 import os
