@@ -2,8 +2,6 @@
 config.py
 ----------
 Central place for API key setup (Gemini + Tavily).
-Har module isi file se `api_key` aur `tavily` import karega,
-taaki key sirf ek jagah configure ho.
 """
 
 import os
