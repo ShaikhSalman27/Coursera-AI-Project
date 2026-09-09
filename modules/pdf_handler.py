@@ -1,9 +1,8 @@
 """
 modules/pdf_handler.py
 ------------------------
-PDF se text extract karne ka function.
-Pehle normal text-layer try karta hai, agar text nahi milta
-(scanned PDF) to Gemini Vision se page-by-page image analysis karta hai.
+Extracts text from PDFs by first attempting standard text-layer extraction. 
+If no text is found (e.g., scanned PDFs), it performs page-by-page image analysis using Gemini Vision.
 """
 
 import io
