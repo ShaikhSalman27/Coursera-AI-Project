@@ -1,7 +1,7 @@
 """
 modules/vector_store.py
 --------------------------
-Text ko chunks me split karna aur FAISS vector store banake save karna.
+Splits text into smaller chunks, generates embeddings, and builds and persists a FAISS vector store for efficient similarity search.
 """
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
