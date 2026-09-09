@@ -1,10 +1,10 @@
 """
 modules/ui_theme.py
 ----------------------
-Coursera-brand-inspired visual theme for the Streamlit app.
+Implements a Coursera-inspired visual theme for the Streamlit app. 
 
-Sirf visual layer hai — koi business logic yahan nahi.
-`inject_custom_css()` aur `render_header()` ko app.py ke top par call karo.
+This module handles only the presentation layer and contains no business logic. 
+Call inject_custom_css() and render_header() at the top of app.py.
 """
 
 import streamlit as st
