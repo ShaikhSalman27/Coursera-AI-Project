@@ -1,8 +1,8 @@
 """
 modules/video_handler.py
 ---------------------------
-Uploaded video ko Gemini par upload karke, poori video ka transcript,
-scene description, OCR, charts, key-points, summary nikalta hai.
+Uploads the input video to Gemini for comprehensive analysis, extracting the full transcript, 
+scene descriptions, OCR text, charts, key points, and summary.
 """
 
 import os
