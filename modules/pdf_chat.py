@@ -1,8 +1,8 @@
 """
 modules/pdf_chat.py
 ----------------------
-Uploaded content (PDF/image/video ka processed text) ke FAISS index
-me se relevant chunks dhundh kar, security-guarded answer generate karta hai.
+Retrieves relevant chunks from a FAISS index built from processed PDF, image, and video content, 
+then generates secure, context-aware responses through a multi-layer security validation pipeline.
 """
 
 from langchain_google_genai import GoogleGenerativeAIEmbeddings, ChatGoogleGenerativeAI
