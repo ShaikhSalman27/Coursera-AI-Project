@@ -1,12 +1,6 @@
 """
 CourseraAIChatbot.py
 --------
-Main Streamlit entrypoint.
-
-Sirf yeh file UI aur flow control karti hai — actual "logic"
-alag-alag modules/ files me hai (PDF, image, video, voice, vector-store,
-pdf-chat, website-chat), aur security saari security_guard.py me hai.
-
 Run:
     python -m streamlit run CourseraAIChatbot.py
 """
