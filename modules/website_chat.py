@@ -1,8 +1,8 @@
 """
 modules/website_chat.py
 --------------------------
-Tavily se coursera.org par live search karna, aur us context se
-security-guarded answer generate karna (source URLs ke saath).
+Performs live searches on coursera.org using Tavily and generates security-guarded answers 
+based on the retrieved context, including source URLs.
 """
 
 from langchain_google_genai import ChatGoogleGenerativeAI
