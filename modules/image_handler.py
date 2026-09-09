@@ -1,7 +1,7 @@
 """
 modules/image_handler.py
 --------------------------
-Uploaded images se text/OCR + detailed visual explanation nikalta hai.
+Extracts text (OCR) from uploaded images and provides detailed visual explanations.
 """
 
 from PIL import Image
